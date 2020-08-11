@@ -67,9 +67,9 @@ body {
 }
 
 .barba-container.fadein {
-    animation: moveFromLeftFade .6s ease;
+    animation: fade .6s ease;
 }
 
-@keyframes moveFromLeftFade {
-    from { transform: translateX(-100%); }
+@keyframes fade {
+    from { transform: translateX(0); }
 }
